@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poetsen+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav .t p a {
+    color: #6b0606;
+    font-weight: bolder;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-self: center;
+    gap: 50px;
+}
+
+.nav ul .here {
+    border-bottom: 2px rgb(234, 55, 55) solid;
+}
+
+/*carousel*/
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 91vh;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url('./pexels-yankrukov-8867482.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel h1 {
+    font-size: 6rem;
+    color: #C71245;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    margin: 0;
+}
+
+.carousel p {
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+/*mid*/
+.mid {
+    padding: 20px 60px;
+}
+
+form {
+    border: 1px rgb(170, 170, 170) solid;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+form p {
+    margin: 5px 0;
+}
+
+form .name {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+form .name input {
+    width: 20rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+form .epon {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+form .epon input {
+    width: 20rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+form textarea {
+    margin-top: 10px;
+    width: 40rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+form textarea p {
+    margin: 0;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 2px #C71245 solid;
+    color: #C71245;
+}
+
+/*footer*/
+.footer {
+    background-color: #f84646;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-logo p {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
